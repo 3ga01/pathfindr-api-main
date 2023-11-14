@@ -114,11 +114,11 @@ public class SecurityConfig {
 
                                                                 .logoutSuccessUrl("/login"))
 
-                                .headers(
-                                                (headers) -> headers
+                                // .headers(
+                                // (headers) -> headers
 
-                                                                .frameOptions(frameOptions -> frameOptions
-                                                                                .sameOrigin()))
+                                // .frameOptions(frameOptions -> frameOptions
+                                // .sameOrigin()))
 
                                 .csrf(AbstractHttpConfigurer::disable);
 
