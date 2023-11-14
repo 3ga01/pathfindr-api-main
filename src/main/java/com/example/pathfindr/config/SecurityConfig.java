@@ -29,9 +29,9 @@ public class SecurityConfig {
                                                                 CorsConfiguration config = new CorsConfiguration();
 
                                                                 config.setAllowedOrigins(List.of(
-                                                                                "*",
+                                                                                // "*",
 
-                                                                                "https://path-findr.vercel.app/",
+                                                                                "http://path-findr.vercel.app/",
                                                                                 "/signUpStudent",
 
                                                                                 "http://localhost:8080/data",
@@ -45,8 +45,10 @@ public class SecurityConfig {
                                                                                 "http://localhost:3000",
 
                                                                                 "http://localhost:3000/login",
-                                                                                "https://dashboard.heroku.com/apps/pathfindr/deploy/github/signUpStudent",
-                                                                                "https://path-findr.vercel.app/register"));
+
+                                                                                "http://dashboard.heroku.com/apps/pathfindr/deploy/github/signUpStudent",
+
+                                                                                "http://path-findr.vercel.app/register"));
 
                                                                 // Specify allowed HTTP methods
                                                                 config.setAllowedMethods(List.of(

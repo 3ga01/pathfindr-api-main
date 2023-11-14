@@ -70,6 +70,7 @@ public class MainController {
         }
     }
 
+    @CrossOrigin
     @PostMapping("/mentorApplication")
     public ResponseEntity<String> handleMentorApplication(
 
