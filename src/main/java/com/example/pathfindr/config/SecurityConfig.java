@@ -40,9 +40,11 @@ public class SecurityConfig {
 
                                                                                 "/mentorApplication",
 
-                                                                                "http://localhost:3000",
+                                                                                "http://localhost:3000","https://path-findr.vercel.app/",
 
-                                                                                "http://localhost:3000/login"));
+                                                                                "http://localhost:3000/login",
+                                                                                "https://dashboard.heroku.com/apps/pathfindr/deploy/github/signUpStudent",
+                                                                                "https://path-findr.vercel.app/register"));
 
                                                                 // Specify allowed HTTP methods
                                                                 config.setAllowedMethods(List.of(
