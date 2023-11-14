@@ -29,7 +29,7 @@ public class SecurityConfig {
                                                                 CorsConfiguration config = new CorsConfiguration();
 
                                                                 config.setAllowedOrigins(List.of(
-                                                                        "*",
+                                                                                "*",
 
                                                                                 "https://path-findr.vercel.app/",
                                                                                 "/signUpStudent",
@@ -73,7 +73,8 @@ public class SecurityConfig {
                                 .authorizeHttpRequests(
                                                 (request) -> request
 
-                                                                .requestMatchers("/", "/signUp", "/mentorApplication")
+                                                                .requestMatchers("/", "/signUpStudent",
+                                                                                "/mentorApplication")
                                                                 .permitAll()
 
                                                                 .requestMatchers("/student/**")
