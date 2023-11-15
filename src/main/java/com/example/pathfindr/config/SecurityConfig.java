@@ -46,7 +46,9 @@ public class SecurityConfig {
 
                                                                                 "http://localhost:3000/login",
 
-                                                                                "http://dashboard.heroku.com/apps/pathfindr/deploy/github/signUpStudent",
+                                                                                "https://pathfindr-e70a2615f0f7.herokuapp.com",
+                                                                                "https://pathfindr-e70a2615f0f7.herokuapp.com/signUpStudent",
+                                                                                "https://pathfindr-e70a2615f0f7.herokuapp.com/mentorApplication",
 
                                                                                 "http://path-findr.vercel.app/register"));
 
