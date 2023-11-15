@@ -66,10 +66,11 @@ public class SecurityConfig {
                                                                 // Specify allowed headers
                                                                 config.setAllowedHeaders(List.of(
 
-                                                                                "Content-Type"));
+                                                                                "Content-Type","Authorization"));
 
                                                                 // Enable support for credentials (e.g.,cookies)
                                                                 config.setAllowCredentials(true);
+                                                                config.setMaxAge(3600L);
                                                                 return config;
                                                         });
                                 })
