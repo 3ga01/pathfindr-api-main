@@ -32,6 +32,7 @@ public class SecurityConfig {
                                                                                 // "*",
 
                                                                                 "http://path-findr.vercel.app/",
+                                                                                "https://pathfindr-frontend-2ec0df532716.herokuapp.com",
                                                                                 "/signUpStudent",
                                                                                 "https://pathfindr-e70a2615f0f7.herokuapp.com",
                                                                                 "https://pathfindr-e70a2615f0f7.herokuapp.com/signUpStudent",
@@ -70,7 +71,7 @@ public class SecurityConfig {
                                                                 // Specify allowed headers
                                                                 config.setAllowedHeaders(List.of(
 
-                                                                                "Content-Type","Authorization"));
+                                                                                "Content-Type", "Authorization"));
 
                                                                 // Enable support for credentials (e.g.,cookies)
                                                                 config.setAllowCredentials(true);
