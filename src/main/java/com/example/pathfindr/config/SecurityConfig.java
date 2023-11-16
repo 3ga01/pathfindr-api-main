@@ -33,6 +33,8 @@ public class SecurityConfig {
 
                                                                                 "http://path-findr.vercel.app/",
                                                                                 "/signUpStudent",
+                                                                                "https://pathfindr-e70a2615f0f7.herokuapp.com",
+                                                                                "https://pathfindr-e70a2615f0f7.herokuapp.com/signUpStudent",
 
                                                                                 "http://localhost:8080/data",
 
@@ -41,6 +43,8 @@ public class SecurityConfig {
                                                                                 "http://localhost:3000/mentor",
 
                                                                                 "/mentorApplication",
+                                                                                "https://bgjm7rrm-8080.uks1.devtunnels.ms",
+                                                                                "https://bgjm7rrm-8080.uks1.devtunnels.ms/signUpStudent",
 
                                                                                 "http://localhost:3000",
 
